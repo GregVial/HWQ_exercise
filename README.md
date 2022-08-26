@@ -51,19 +51,19 @@ Please send us your code back by email
 ```
 
 Details about the json data:
-boardID: the id of the device
-millisBoard: the unix time in milliseconds when the data was actually send by the board
-tempC: hot water temperature, in degrees celsius
-tempM: engine temperature, in degrees celsius
-tempF: cold water temperature, in degrees celsius
-mainLiters: total liters of hot water consummed on board
-circuitId: the id of the circuit (appartement) that consummed water
-timeStart: the unix time in milliseconds when the water consumption started (should be lower than timeEnd)
-timeEnd: the unix time in milliseconds when the water consumption ended (should be lower than millisBoard)
-liters: quantity of hot water consummed during this session in liters
-litersF: quantity of cold water consummed during this session in liters
+- boardID: the id of the device
+- millisBoard: the unix time in milliseconds when the data was actually send by the board
+- tempC: hot water temperature, in degrees celsius
+- tempM: engine temperature, in degrees celsius
+- tempF: cold water temperature, in degrees celsius
+- mainLiters: total liters of hot water consummed on board
+- circuitId: the id of the circuit (appartement) that consummed water
+- timeStart: the unix time in milliseconds when the water consumption started (should be lower than timeEnd)
+- timeEnd: the unix time in milliseconds when the water consumption ended (should be lower than millisBoard)
+- liters: quantity of hot water consummed during this session in liters
+- litersF: quantity of cold water consummed during this session in liters
 
-For your tests, the values that really matter are boardID, millisBoard, circuitId, timeStart, timeEnd, liters
+For your tests, the values that really matter are *boardID, millisBoard, circuitId, timeStart, timeEnd, liters*
 Other values can be left with default value.
 
 
